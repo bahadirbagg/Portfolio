@@ -20,8 +20,8 @@ function Navbar() {
           Projects
         </a>
 
-        <a rel="resume" href="https://online.flippingbook.com/view/21788245/">
-          Resume
+        <a rel="skills" href="/#skill">
+          Skills
         </a>
       </nav>
 

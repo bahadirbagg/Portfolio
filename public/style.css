@@ -337,11 +337,20 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  justify-items: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 35px;
+  width: 100%;
   color: #64ffda;
+}
+
+.project-top .project-animation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -10px;
 }
 
 .project-title {
@@ -350,15 +359,16 @@ section {
           justify-content: center;
   margin: 0px 0px 10px;
   color: #ccd6f6;
-  font-size: 15px;
+  font-size: 22px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
 .project-description {
   color: #a8b2d1;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .project-code {
@@ -368,7 +378,6 @@ section {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  font-family: "Calibre";
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -382,5 +391,83 @@ section {
       -ms-text-size-adjust: 10px;
           text-size-adjust: 10px;
   font-size: 15px;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  color: #8892b0;
+}
+
+.skill-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.skill-container div {
+  background-color: #112240;
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.skill-container div:hover {
+  top: -60px;
+}
+
+.skill-container div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #64ffda;
+}
+
+.skill-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+}
+
+.skill-details {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .skill-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .skill-container div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .skill-content {
+    padding: 1rem;
+  }
+  .main-menu_nav a {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skill-container {
+    gap: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

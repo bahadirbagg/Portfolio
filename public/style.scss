@@ -213,26 +213,32 @@ section {
 .project-top{
     display: flex;
     justify-content: space-between;
+    justify-items: space-between;
     align-items: center;
     margin-bottom: 35px;
+    width: 100%;
     color:#64ffda;
+}
+.project-top .project-animation{
+  display: flex;
+  margin-right: -10px;
 }
 .project-title {
   justify-content: center;
   margin: 0px 0px 10px;
   color: #ccd6f6;
-  font-size: 15px;
+  font-size: 22px;
   align-items: center;
+  font-family:"Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif
 }
 
 .project-description {
   color: #a8b2d1;
-  font-size: 15px;
+  font-size: 17px;
 }
 .project-code {
   display: flex;
   align-items: flex-end;
-  font-family: "Calibre";
   flex-grow: 1;
   flex-wrap: wrap;
   padding: 0px;
@@ -240,4 +246,70 @@ section {
   list-style: none;
   text-size-adjust: 10px;
   font-size: 15px;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  color:#8892b0;
+}
+.skill-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:2rem;
+  align-self: center;
+}
+.skill-container div{
+  background-color: #112240;
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  font-family:"Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif
+}
+.skill-container div:hover{
+  top: -60px;
+}
+.skill-container div h3{
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #64ffda;
+}
+.skill-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap:1rem;
+  column-gap:3rem;
+}
+.skill-details{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap:1rem;
+}
+
+//MEDIA QUARIES(MEDIUM DEVİCES//
+
+@media screen and (max-width:1024px) {
+    .skill-container{
+      grid-template-columns: 1fr;
+    }
+    .skill-container div{
+      width: 80%;
+      padding: 2rem;
+      margin:0 auto;
+    }
+    .skill-content{
+      padding: 1rem;
+    }
+    .main-menu_nav a {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  
+}
+
+
+//MEDIA QUARIES(SMALL DEVİCES//
+
+@media screen and (max-width:600px) {
+  .skill-container{
+    gap:1rem;
+  }
+
 }
