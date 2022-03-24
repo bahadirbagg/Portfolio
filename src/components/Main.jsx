@@ -3,7 +3,6 @@ import SmoothList from "react-smooth-list";
 import Particless from "./Particless";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import { InView } from 'react-intersection-observer';
 
 function Main() {
     
