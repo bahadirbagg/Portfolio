@@ -260,7 +260,7 @@ section {
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
-  font-family:"Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif
+  font-family:"Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 .skill-container div:hover{
   top: -60px;
@@ -301,6 +301,9 @@ section {
       padding-top: 50px;
       padding-bottom: 50px;
     }
+    .projects-background {
+      grid-template-columns: 1fr;
+    }
   
 }
 
@@ -309,6 +312,9 @@ section {
 
 @media screen and (max-width:600px) {
   .skill-container{
+    gap:1rem;
+  }
+  .projects-background {
     gap:1rem;
   }
 

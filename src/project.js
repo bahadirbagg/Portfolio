@@ -11,7 +11,7 @@ export const projects = [
     href: "https://github.com/bahadirbagg/Real-Time-Trading-Platform-GTRADER",
     title: "Real Time Trading Platform",
     description: "Real time trading app.",
-    codes: "javascript",
+    codes: "java",
   },
   {
     id: 3,

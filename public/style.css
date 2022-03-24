@@ -463,10 +463,17 @@ section {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .projects-background {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .skill-container {
+    gap: 1rem;
+  }
+  .projects-background {
     gap: 1rem;
   }
 }
