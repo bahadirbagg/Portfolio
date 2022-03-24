@@ -6,10 +6,6 @@ import Skills from "./Skills";
 import { InView } from 'react-intersection-observer';
 
 function Main() {
-  const TrackVisible = () => {
-    const { ref, entry } = InView({ trackVisibility: true, delay: 100 });
-    return <div ref={ref}>{entry?.isVisible}</div>;
-  };
     
   return (
     <div>
