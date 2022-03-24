@@ -466,6 +466,12 @@ section {
   .projects-background {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    width: 70%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
 }
 

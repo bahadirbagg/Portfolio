@@ -303,6 +303,9 @@ section {
     }
     .projects-background {
       grid-template-columns: 1fr;
+      width: 70%;
+      align-self: center;
+      align-content: center;
     }
   
 }
