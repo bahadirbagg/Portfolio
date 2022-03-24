@@ -14,11 +14,11 @@ useEffect( () => {
 
 
   return (<section id="projects">
-  <h2 className="heading" data-aos="fade-up" data-aos-anchor-placement="center-center">Projects</h2>
-  <ul className="projects-background">
+  <h2 className="heading" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  data-aos-duration="1000">Projects</h2>
+  <ul className="projects-background" >
     {projects.map((proje) => {
       return (
-          <li className="project-li" data-aos="fade-up" data-aos-anchor-placement="center-center">
+          <li className="project-li" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000">
               <div
                   className="project-inner"  onMouseOver={() => setPlay(true)} onMouseOut={() => setPlay(false)}
               >   

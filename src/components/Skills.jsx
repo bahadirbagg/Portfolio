@@ -5,8 +5,8 @@ function Skills() {
   
       return (
         <section id="skill">
-        <h2 className="heading" data-aos="fade-up" data-aos-anchor-placement="center-center">Skills</h2>   
-        <div className="skill-container" data-aos="fade-up" data-aos-anchor-placement="center-center">
+        <h2 className="heading" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  data-aos-duration="1000">Skills</h2>   
+        <div className="skill-container" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000">
     
             <div className="skill-frontend">
                 <h3>Frontend Development</h3>
@@ -43,6 +43,10 @@ function Skills() {
                     <article className="skill-details">
                         <BsFillPatchCheckFill />
                         <h4>Phyton </h4>
+                    </article>
+                    <article className="skill-details">
+                        <BsFillPatchCheckFill />
+                        <h4>SQL </h4>
                     </article>
             </div>
             </div>

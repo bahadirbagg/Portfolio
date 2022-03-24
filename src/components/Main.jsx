@@ -3,9 +3,13 @@ import SmoothList from "react-smooth-list";
 import Particless from "./Particless";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import { InView } from 'react-intersection-observer';
 
 function Main() {
-
+  const TrackVisible = () => {
+    const { ref, entry } = InView({ trackVisibility: true, delay: 100 });
+    return <div ref={ref}>{entry?.isVisible}</div>;
+  };
     
   return (
     <div>
@@ -19,8 +23,8 @@ function Main() {
         </SmoothList>
       </section>
       <section id="about">
-        <h2 className="heading" data-aos="fade-up" data-aos-anchor-placement="center-center">About Me</h2>
-        <p data-aos="fade-up" data-aos-anchor-placement="center-center">
+        <h2 className="heading" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">About Me</h2>
+        <p data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
           Hello! My name is Bahadır and I enjoy creating things that live on the
           internet. My interest in web development started back in 2021.I’m a
           Full-Stack Developer located in Turkey. I have a serious passion for
