@@ -15,7 +15,7 @@ useEffect( () => {
   return (
   <section id="projects">
     <h2 className="heading" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  data-aos-duration="1000">Projects</h2>
-    <div className="myproje" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="3000" style={{ backgroundImage: "url('https://r.resimlink.com/ulK61ZBszRxU.png')" }}><a
+    <div className="myproje" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="3000" style={{ backgroundImage: "url('https://files.fm/thumb_show.php?i=58v4k25ue')" }}><a
                           href='https://moviebookv2.netlify.app'
                           target="_blank"
                           rel="noopener noreferrer">
