@@ -21,7 +21,7 @@ useEffect( () => {
                           rel="noopener noreferrer">
                       MovieBook</a></div>
 
-    <h4 data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="3000" className="projects-h4">Other Projects</h4>
+   /*  <h4 data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="3000" className="projects-h4">Other Projects</h4>
 
     <ul className="projects-background" >
         {projects.map((proje) => {
@@ -58,7 +58,7 @@ useEffect( () => {
             
       );
     })}
-    </ul> 
+    </ul>  */
 </section>
 )}
 
