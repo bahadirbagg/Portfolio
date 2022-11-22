@@ -59,6 +59,7 @@ useEffect( () => {
       );
     })}
     </ul>  */
+  </div>
 </section>
 )}
 
