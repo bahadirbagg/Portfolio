@@ -6,50 +6,57 @@ function Skills() {
       return (
         <section id="skill">
         <h2 className="heading" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  data-aos-duration="1000">Skills</h2>   
-        <div className="skill-container" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000">
     
-            <div className="skill-frontend">
-                <h3>Frontend Development</h3>
-                <div className="skill-content">
-                    <article className="skill-details">
-                        <BsFillPatchCheckFill />
-                        <h4>HTML</h4>
-                    </article>
-                    <article className="skill-details">
-                        <BsFillPatchCheckFill />  
-                        <h4>CSS</h4>
-                    </article>
-                    <article className="skill-details">
-                        <BsFillPatchCheckFill /> 
-                        <h4>JavaScript</h4>
-                    </article>
-                    <article className="skill-details">
-                        <BsFillPatchCheckFill />
-                        <h4>React</h4>
-                    </article>
+            <div class="marquee-text fadeout-horizontal"  data-aos="fade-up">
+                <div class="marquee-text-track">
+                    <p>JavaScript</p>
+                    <p>Material UI</p>
+                    <p>CSS</p>
+                    <p>TailwindCSS</p>
+                    <p>Bootstrap</p>
+                    <p>React</p>
+                    <p>Python</p>
+                    <p>C#</p>
+                    <p>Django</p>
+                    <p aria-hidden="true">JavaScript</p>
+                    <p aria-hidden="true">Material UI</p>
+                    <p aria-hidden="true">CSS</p>
+                    <p aria-hidden="true">TailwindCSS</p>
+                    <p aria-hidden="true">Bootstrap</p>
+                    <p aria-hidden="true">React</p>
+                    <p aria-hidden="true">Python</p>
+                    <p aria-hidden="true">C#</p>
+                    <p aria-hidden="true">Django</p>
                 </div>
             </div>
-            <div className="skill-backend">
-                <h3>Backend Development</h3>
-                <div className="skill-content">
-                    <article className="skill-details">
-                        <BsFillPatchCheckFill />
-                        <h4>Node JS</h4>
-                    </article>
-                    <article className="skill-details">
-                        <BsFillPatchCheckFill />
-                        <h4>MongoDB </h4>
-                    </article>
-                    <article className="skill-details">
-                        <BsFillPatchCheckFill />
-                        <h4>Phyton </h4>
-                    </article>
-                    <article className="skill-details">
-                        <BsFillPatchCheckFill />
-                        <h4>SQL </h4>
-                    </article>
-            </div>
-            </div>
+                <div class="marquee-text fadeout-horizontal"  data-aos="fade-up">
+                <div 
+                    style={ 
+                        {
+                            "--direction": "reverse",
+                            "--speed": "20s"
+                        }
+                    }
+                    class="marquee-text-track">
+                    <p>JavaScript</p>
+                    <p>Material UI</p>
+                    <p>CSS</p>
+                    <p>TailwindCSS</p>
+                    <p>Accessibility</p>
+                    <p>React</p>
+                    <p>Python</p>
+                    <p>C#</p>
+                    <p>Django</p>
+                    <p aria-hidden="true">JavaScript</p>
+                    <p aria-hidden="true">Material UI</p>
+                    <p aria-hidden="true">CSS</p>
+                    <p aria-hidden="true">TailwindCSS</p>
+                    <p aria-hidden="true">Accessibility</p>
+                    <p aria-hidden="true">React</p>
+                    <p aria-hidden="true">Python</p>
+                    <p aria-hidden="true">C#</p>
+                    <p aria-hidden="true">Django</p>
+                </div>
         </div>
       </section>
       );

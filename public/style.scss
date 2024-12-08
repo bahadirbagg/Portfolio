@@ -1,3 +1,4 @@
+
 html {
   scroll-behavior: smooth;
 }
@@ -291,6 +292,34 @@ section {
   display: flex;
   gap:1rem;
 }
+.marquee-text {
+  overflow: clip;
+}
+
+.marquee-text-track {
+  display: flex;
+  padding-left: 4.8rem;
+  gap: 4.8rem;
+  width: max-content;
+  animation: marquee-move-text var(--speed, 10s) linear infinite var(
+      --direction,
+      forwards
+    );
+}
+
+.marquee-text p {
+  border: 1px solid white;
+  background-color: #141414;
+  border-radius: 999px;
+  padding: 1rem 2.5rem;
+}
+
+@keyframes marquee-move-text {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 
 //MEDIA QUARIES(MEDIUM DEVİCES//
 
